@@ -1,0 +1,9 @@
+pandas
+openpyxl
+numpy
+nltk
+matplotlib
+networkx
+scikit-learn
+wordcloud
+nxviz==0.6.3

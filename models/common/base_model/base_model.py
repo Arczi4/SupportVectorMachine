@@ -3,8 +3,7 @@ import numpy as np
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix, classification_report
 
-# TODO: add type hints
-class BaseRegressionModel():
+class BaseModel():
     def fit(self):
         for emotion in self.emotions:
             self.all_predictions[emotion].fit(self.X, self.y[emotion])
